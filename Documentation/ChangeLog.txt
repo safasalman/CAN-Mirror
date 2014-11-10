@@ -1,0 +1,14 @@
+V1.0
+First Spin, no changes.
+
+V1.1:
+Changed standard button input to use GPIO21 instead of GPIO33
+Changed pullup to avoid low voltage interrupt to COMP3A instead of COMP3B
+RX0BF is now on GPIO22/pin1
+RX1BF is now on GPIO32/pin2
+
+V1.2:
+Fixed issue where I had wroingly tied VDD to 3.3V instead of letting the internal 1.8V regulator drive them.
+
+v1.3:
+replaced Boot mode solder jumpers with 0603 resistor jumpers
